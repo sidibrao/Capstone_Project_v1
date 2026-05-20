@@ -1,0 +1,20 @@
+# Terraform state — never commit
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars
+override.tf
+override.tf.json
+
+# AWS credentials — never commit
+.aws/
+*.pem
+*.csv
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
